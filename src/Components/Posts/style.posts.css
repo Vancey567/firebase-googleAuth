@@ -1,0 +1,25 @@
+.new-post {
+    background: rgb(0, 145, 255);
+    color: #fff;
+    padding: 8px 10px;
+    /* height: 30px; */
+    width: 100px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container {
+    /* padding: 20px; */
+    height: 100%;
+    width: 100%;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px 20px;
+}

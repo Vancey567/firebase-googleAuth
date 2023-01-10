@@ -1,0 +1,59 @@
+.post-container {
+    height: 320px;
+    width: 300px;
+    /* background-color: rgb(198, 244, 244); */
+    background-color: rgb(215, 245, 245);
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+}
+
+.post {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-details {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+}
+
+.post-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-options {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+a:nth-last-child(1) {
+    margin: 0 20px 0 0;
+}
+
+span > svg {
+    color: black;
+    margin: 0 0 0 10px;
+}
+
+span > svg:hover {
+    color: rgb(0, 162, 255);
+}
+
+.post-options > span {
+    margin: 0 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(142, 205, 245);
+    height: 80px;
+    padding: 0 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    /* font-weight: bold; */
+    font-size: 18px;
+} 

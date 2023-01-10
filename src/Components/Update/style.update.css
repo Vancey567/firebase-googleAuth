@@ -1,0 +1,86 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* stretch the form container to take up the full height of the viewport */
+}
+
+form {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+form textarea {
+  min-height: 200px;
+}
+
+form button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button:hover {
+  background-color: #2e86c1;
+}
+
+form button:active {
+  transform: translateY(2px);
+}
+
+.notification {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.notification-success {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+}
+
+.notification-danger {
+  background-color: #f47e23;
+  color: white;
+  padding: 10px;
+}
